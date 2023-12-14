@@ -5,7 +5,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className="h-screen w-screen flex items-center justify-center bg-slate-900">
-      <h1 className='text-slate-100 excluir-esta-classe'>Vite</h1>
+      <h1 className='text-slate-100 text-6xl'>Vite</h1>
     </div>
   </React.StrictMode>,
 )

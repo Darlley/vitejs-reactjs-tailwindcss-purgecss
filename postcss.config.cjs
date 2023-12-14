@@ -1,5 +1,7 @@
 module.exports = {
   plugins: [
+    
+    require('tailwindcss'),
     require('autoprefixer'),
     require('@fullhuman/postcss-purgecss')({
       content: [
@@ -16,7 +18,5 @@ module.exports = {
         return broadMatches.concat(innerMatches)
       },
     }),
-    require('tailwindcss'),
-
   ]
 }
